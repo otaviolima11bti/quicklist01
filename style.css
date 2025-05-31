@@ -203,7 +203,8 @@ main {
     button {
         border: none;
         background: none;
-        color:var(--always-white)
+        color:var(--always-white);
+        cursor: pointer;
     }
 
 }

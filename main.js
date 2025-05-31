@@ -51,5 +51,10 @@ function removeItem(itemName) {
     if (itemIndex !== -1) {
         items.splice(itemIndex, 1)
     }
+
     showItemsList()
+}
+
+function addHideWarningClass () {
+    document.querySelector(".warning").classList.add("hide-warning")
 }
